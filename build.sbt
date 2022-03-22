@@ -1,4 +1,4 @@
-ThisBuild / version := "0.1.0-SNAPSHOT"
+ThisBuild / version := "0.1.1"
 
 ThisBuild / scalaVersion := "2.13.8"
 
@@ -7,7 +7,7 @@ lazy val root = (project in file("."))
     name := "math-mar"
   )
 
-publishTo := Some("GitHub bereszit Apache Maven Packages" at "https://maven.pkg.github.com/bereszit/math-mar")
+publishTo := Some("GitHub bereszit Apache Maven Packages" at "https://maven.pkg.github.com")
 publishMavenStyle := true
 credentials += Credentials(
   "GitHub Package Registry",
