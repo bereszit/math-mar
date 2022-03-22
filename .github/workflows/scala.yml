@@ -15,4 +15,4 @@ jobs:
       - name: Publish package
         run: sbt test publish
         env:
-          GITHUB_TOKEN: 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
+          GITHUB_TOKEN: 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
