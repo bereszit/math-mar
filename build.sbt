@@ -13,5 +13,5 @@ credentials += Credentials(
   "GitHub Package Registry",
   "maven.pkg.github.com",
   "bereszit",
-  "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"
+  "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"
 )
