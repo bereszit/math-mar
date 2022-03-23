@@ -7,11 +7,11 @@ lazy val root = (project in file("."))
     name := "math-mar"
   )
 updateOptions := updateOptions.value.withGigahorse(false)
-publishTo := Some("GitHub bereszit Apache Maven Packages" at "https://maven.pkg.github.com/bereszit/math-mar/")
+publishTo := Some("GitHub bereszit Apache Maven Packages" at "https://maven.pkg.github.com/bereszit/math-mar")
 publishMavenStyle := true
 credentials += Credentials(
   "GitHub Package Registry",
   "maven.pkg.github.com",
   "bereszit",
-  "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"
+  "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"
 )
