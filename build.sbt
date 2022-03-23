@@ -1,4 +1,4 @@
-ThisBuild / version := "0.1.2"
+ThisBuild / version := "0.1.3"
 
 ThisBuild / scalaVersion := "2.13.8"
 
@@ -13,5 +13,5 @@ credentials += Credentials(
   "GitHub Package Registry",
   "maven.pkg.github.com",
   "bereszit",
-  "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"
+  "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"
 )
